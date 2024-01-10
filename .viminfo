@@ -14,10 +14,10 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1704923964,,"q"
 :wq
-|2,0,1704923874,,"wq"
+|2,0,1704925734,,"wq"
+:q
+|2,0,1704924703,,"q"
 
 # Search String History (newest to oldest):
 ? @$
@@ -32,234 +32,308 @@ $
 # Registers:
 
 # File marks:
-'0  1  0  ~/simple_shell/exits.c
-|4,48,1,0,1704923964,"~/simple_shell/exits.c"
-'1  2  0  ~/simple_shell/getenv.c
-|4,49,2,0,1704923874,"~/simple_shell/getenv.c"
-'2  90  0  ~/simple_shell/getinfo.c
-|4,50,90,0,1704923737,"~/simple_shell/getinfo.c"
-'3  170  0  ~/simple_shell/getLine.c
-|4,51,170,0,1704923651,"~/simple_shell/getLine.c"
-'4  170  0  ~/simple_shell/vi
-|4,52,170,0,1704923538,"~/simple_shell/vi"
-'5  176  0  ~/simple_shell/history.c
-|4,53,176,0,1704923372,"~/simple_shell/history.c"
-'6  1  18  ~/simple_shell/history.c
-|4,54,1,18,1704923277,"~/simple_shell/history.c"
-'7  2  0  ~/simple_shell/history.c
-|4,55,2,0,1704923277,"~/simple_shell/history.c"
-'8  131  0  ~/simple_shell/lists1.c
-|4,56,131,0,1704923155,"~/simple_shell/lists1.c"
-'9  8  0  ~/simple_shell
-|4,57,8,0,1704923030,"~/simple_shell"
+'0  8  0  ~/simple_shell/_atoi.c
+|4,48,8,0,1704925734,"~/simple_shell/_atoi.c"
+'1  3  0  ~/simple_shell/builtin1.c
+|4,49,3,0,1704925471,"~/simple_shell/builtin1.c"
+'2  1  0  ~/simple_shell/builtin.c
+|4,50,1,0,1704925296,"~/simple_shell/builtin.c"
+'3  2  0  ~/simple_shell/environ.c
+|4,51,2,0,1704925235,"~/simple_shell/environ.c"
+'4  29  0  ~/simple_shell/errors.c
+|4,52,29,0,1704925047,"~/simple_shell/errors.c"
+'5  10  0  ~/simple_shell/errors1.c
+|4,53,10,0,1704924985,"~/simple_shell/errors1.c"
+'6  26  215  ~/simple_shell/errors1.c
+|4,54,26,215,1704924703,"~/simple_shell/errors1.c"
+'7  35  0  ~/simple_shell/errors1.c
+|4,55,35,0,1704924703,"~/simple_shell/errors1.c"
+'8  45  0  ~/simple_shell/errors1.c
+|4,56,45,0,1704924620,"~/simple_shell/errors1.c"
+'9  45  0  ~/simple_shell/errors1.c
+|4,57,45,0,1704924620,"~/simple_shell/errors1.c"
 
 # Jumplist (newest first):
--'  1  0  ~/simple_shell/exits.c
-|4,39,1,0,1704923964,"~/simple_shell/exits.c"
--'  2  0  ~/simple_shell/getenv.c
-|4,39,2,0,1704923874,"~/simple_shell/getenv.c"
--'  2  0  ~/simple_shell/getenv.c
-|4,39,2,0,1704923874,"~/simple_shell/getenv.c"
--'  1  0  ~/simple_shell/getenv.c
-|4,39,1,0,1704923771,"~/simple_shell/getenv.c"
--'  1  0  ~/simple_shell/getenv.c
-|4,39,1,0,1704923771,"~/simple_shell/getenv.c"
--'  90  0  ~/simple_shell/getinfo.c
-|4,39,90,0,1704923737,"~/simple_shell/getinfo.c"
--'  90  0  ~/simple_shell/getinfo.c
-|4,39,90,0,1704923737,"~/simple_shell/getinfo.c"
--'  90  0  ~/simple_shell/getinfo.c
-|4,39,90,0,1704923737,"~/simple_shell/getinfo.c"
--'  90  0  ~/simple_shell/getinfo.c
-|4,39,90,0,1704923737,"~/simple_shell/getinfo.c"
--'  1  0  ~/simple_shell/getinfo.c
-|4,39,1,0,1704923683,"~/simple_shell/getinfo.c"
--'  1  0  ~/simple_shell/getinfo.c
-|4,39,1,0,1704923683,"~/simple_shell/getinfo.c"
--'  1  0  ~/simple_shell/getinfo.c
-|4,39,1,0,1704923683,"~/simple_shell/getinfo.c"
--'  1  0  ~/simple_shell/getinfo.c
-|4,39,1,0,1704923683,"~/simple_shell/getinfo.c"
--'  170  0  ~/simple_shell/getLine.c
-|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
--'  170  0  ~/simple_shell/getLine.c
-|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
--'  170  0  ~/simple_shell/getLine.c
-|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
--'  170  0  ~/simple_shell/getLine.c
-|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
--'  170  0  ~/simple_shell/getLine.c
-|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
--'  170  0  ~/simple_shell/getLine.c
-|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
--'  170  0  ~/simple_shell/getLine.c
-|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
--'  170  0  ~/simple_shell/getLine.c
-|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
--'  1  0  ~/simple_shell/getLine.c
-|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
--'  1  0  ~/simple_shell/getLine.c
-|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
--'  1  0  ~/simple_shell/getLine.c
-|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
--'  1  0  ~/simple_shell/getLine.c
-|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
--'  1  0  ~/simple_shell/getLine.c
-|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
--'  1  0  ~/simple_shell/getLine.c
-|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
--'  1  0  ~/simple_shell/getLine.c
-|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
--'  1  0  ~/simple_shell/getLine.c
-|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  170  0  ~/simple_shell/vi
-|4,39,170,0,1704923538,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  1  0  ~/simple_shell/vi
-|4,39,1,0,1704923496,"~/simple_shell/vi"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  176  0  ~/simple_shell/history.c
-|4,39,176,0,1704923372,"~/simple_shell/history.c"
--'  1  18  ~/simple_shell/history.c
-|4,39,1,18,1704923287,"~/simple_shell/history.c"
--'  1  18  ~/simple_shell/history.c
-|4,39,1,18,1704923287,"~/simple_shell/history.c"
--'  1  18  ~/simple_shell/history.c
-|4,39,1,18,1704923287,"~/simple_shell/history.c"
--'  1  18  ~/simple_shell/history.c
-|4,39,1,18,1704923287,"~/simple_shell/history.c"
--'  1  18  ~/simple_shell/history.c
-|4,39,1,18,1704923287,"~/simple_shell/history.c"
--'  1  18  ~/simple_shell/history.c
-|4,39,1,18,1704923287,"~/simple_shell/history.c"
--'  1  18  ~/simple_shell/history.c
-|4,39,1,18,1704923287,"~/simple_shell/history.c"
+-'  8  0  ~/simple_shell/_atoi.c
+|4,39,8,0,1704925734,"~/simple_shell/_atoi.c"
+-'  1  0  ~/simple_shell/_atoi.c
+|4,39,1,0,1704925542,"~/simple_shell/_atoi.c"
+-'  3  0  ~/simple_shell/builtin1.c
+|4,39,3,0,1704925471,"~/simple_shell/builtin1.c"
+-'  3  0  ~/simple_shell/builtin1.c
+|4,39,3,0,1704925471,"~/simple_shell/builtin1.c"
+-'  1  0  ~/simple_shell/builtin1.c
+|4,39,1,0,1704925354,"~/simple_shell/builtin1.c"
+-'  1  0  ~/simple_shell/builtin1.c
+|4,39,1,0,1704925354,"~/simple_shell/builtin1.c"
+-'  1  0  ~/simple_shell/builtin.c
+|4,39,1,0,1704925296,"~/simple_shell/builtin.c"
+-'  1  0  ~/simple_shell/builtin.c
+|4,39,1,0,1704925296,"~/simple_shell/builtin.c"
+-'  1  0  ~/simple_shell/builtin.c
+|4,39,1,0,1704925296,"~/simple_shell/builtin.c"
+-'  1  0  ~/simple_shell/builtin.c
+|4,39,1,0,1704925296,"~/simple_shell/builtin.c"
+-'  2  0  ~/simple_shell/environ.c
+|4,39,2,0,1704925235,"~/simple_shell/environ.c"
+-'  2  0  ~/simple_shell/environ.c
+|4,39,2,0,1704925235,"~/simple_shell/environ.c"
+-'  2  0  ~/simple_shell/environ.c
+|4,39,2,0,1704925235,"~/simple_shell/environ.c"
+-'  2  0  ~/simple_shell/environ.c
+|4,39,2,0,1704925235,"~/simple_shell/environ.c"
+-'  2  0  ~/simple_shell/environ.c
+|4,39,2,0,1704925235,"~/simple_shell/environ.c"
+-'  2  0  ~/simple_shell/environ.c
+|4,39,2,0,1704925235,"~/simple_shell/environ.c"
+-'  2  0  ~/simple_shell/environ.c
+|4,39,2,0,1704925235,"~/simple_shell/environ.c"
+-'  2  0  ~/simple_shell/environ.c
+|4,39,2,0,1704925235,"~/simple_shell/environ.c"
+-'  1  0  ~/simple_shell/environ.c
+|4,39,1,0,1704925081,"~/simple_shell/environ.c"
+-'  1  0  ~/simple_shell/environ.c
+|4,39,1,0,1704925081,"~/simple_shell/environ.c"
+-'  1  0  ~/simple_shell/environ.c
+|4,39,1,0,1704925081,"~/simple_shell/environ.c"
+-'  1  0  ~/simple_shell/environ.c
+|4,39,1,0,1704925081,"~/simple_shell/environ.c"
+-'  1  0  ~/simple_shell/environ.c
+|4,39,1,0,1704925081,"~/simple_shell/environ.c"
+-'  1  0  ~/simple_shell/environ.c
+|4,39,1,0,1704925081,"~/simple_shell/environ.c"
+-'  1  0  ~/simple_shell/environ.c
+|4,39,1,0,1704925081,"~/simple_shell/environ.c"
+-'  1  0  ~/simple_shell/environ.c
+|4,39,1,0,1704925081,"~/simple_shell/environ.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  29  0  ~/simple_shell/errors.c
+|4,39,29,0,1704925047,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  1  0  ~/simple_shell/errors.c
+|4,39,1,0,1704925013,"~/simple_shell/errors.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  10  0  ~/simple_shell/errors1.c
+|4,39,10,0,1704924985,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
+-'  1  0  ~/simple_shell/errors1.c
+|4,39,1,0,1704924733,"~/simple_shell/errors1.c"
 
 # History of marks within files (newest to oldest):
 
-> ~/simple_shell/exits.c
-	*	1704923905	0
+> ~/simple_shell/_atoi.c
+	*	1704925730	0
+	"	8	0
+	^	8	1
+	.	8	0
+	+	44	1
+	+	1	0
+	+	1	16
+	+	1	99
+	+	1	17
+	+	2	89
+	+	17	0
+	+	8	0
+
+> ~/simple_shell/builtin1.c
+	*	1704925466	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	87	1
+	+	60	0
+	+	42	0
+	+	27	1
+	+	10	0
+	+	3	0
+
+> ~/simple_shell/builtin.c
+	*	1704925291	0
 	"	1	0
+	^	98	0
+	.	97	1
+	+	97	1
+
+> ~/simple_shell/environ.c
+	*	1704925230	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	62	1
+	+	52	0
+	+	36	0
+	+	25	0
+	+	9	0
+	+	1	18
+
+> ~/simple_shell/errors.c
+	*	1704925043	0
+	"	29	0
+	^	29	0
+	.	61	0
+	+	61	61
+	+	61	0
+
+> ~/simple_shell/errors1.c
+	*	1704924981	0
+	"	10	0
+	^	10	0
+	.	10	0
+	+	45	61
+	+	46	0
+	+	109	1
+	+	99	0
+	+	70	1
+	+	39	0
+	+	26	48
+	+	26	0
+	+	27	0
+	+	10	8
+	+	3	0
+	+	10	0
+
+> ~/simple_shell/exits.c
+	*	1704924398	0
+	"	75	0
+	^	75	0
+	.	74	1
+	+	74	1
 
 > ~/simple_shell/getenv.c
 	*	1704923868	0

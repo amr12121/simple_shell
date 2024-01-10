@@ -10,11 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:q
+|2,0,1704923964,,"q"
 :wq
-|2,0,1703247658,,"wq"
+|2,0,1704923874,,"wq"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1704923021,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -25,230 +32,380 @@
 # Registers:
 
 # File marks:
-'0  1  2  ~/simple_shell/a
-|4,48,1,2,1703247658,"~/simple_shell/a"
-'1  2  0  ~/simple_shell/README.md
-|4,49,2,0,1703247540,"~/simple_shell/README.md"
-'2  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,50,316,0,1702949477,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
-'3  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,51,316,0,1702949423,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
-'4  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,52,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
-'5  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,53,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
-'6  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,54,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
-'7  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,55,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
-'8  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,56,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
-'9  104  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,57,104,0,1702948840,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
+'0  1  0  ~/simple_shell/exits.c
+|4,48,1,0,1704923964,"~/simple_shell/exits.c"
+'1  2  0  ~/simple_shell/getenv.c
+|4,49,2,0,1704923874,"~/simple_shell/getenv.c"
+'2  90  0  ~/simple_shell/getinfo.c
+|4,50,90,0,1704923737,"~/simple_shell/getinfo.c"
+'3  170  0  ~/simple_shell/getLine.c
+|4,51,170,0,1704923651,"~/simple_shell/getLine.c"
+'4  170  0  ~/simple_shell/vi
+|4,52,170,0,1704923538,"~/simple_shell/vi"
+'5  176  0  ~/simple_shell/history.c
+|4,53,176,0,1704923372,"~/simple_shell/history.c"
+'6  1  18  ~/simple_shell/history.c
+|4,54,1,18,1704923277,"~/simple_shell/history.c"
+'7  2  0  ~/simple_shell/history.c
+|4,55,2,0,1704923277,"~/simple_shell/history.c"
+'8  131  0  ~/simple_shell/lists1.c
+|4,56,131,0,1704923155,"~/simple_shell/lists1.c"
+'9  8  0  ~/simple_shell
+|4,57,8,0,1704923030,"~/simple_shell"
 
 # Jumplist (newest first):
--'  1  2  ~/simple_shell/a
-|4,39,1,2,1703247658,"~/simple_shell/a"
--'  2  0  ~/simple_shell/README.md
-|4,39,2,0,1703247540,"~/simple_shell/README.md"
--'  2  0  ~/simple_shell/README.md
-|4,39,2,0,1703247540,"~/simple_shell/README.md"
--'  1  0  ~/simple_shell/README.md
-|4,39,1,0,1703247516,"~/simple_shell/README.md"
--'  1  0  ~/simple_shell/README.md
-|4,39,1,0,1703247516,"~/simple_shell/README.md"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702949477,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702949477,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702949477,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702949477,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,1,0,1702949445,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,1,0,1702949445,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,1,0,1702949445,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,1,0,1702949445,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702949423,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702949423,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702949423,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702949423,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  105  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,105,0,1702949386,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,1,0,1702949176,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  10  20  ~/alx-low_level_programming/0x15-file_io/3-cp.c
-|4,39,10,20,1702949145,"~/alx-low_level_programming/0x15-file_io/3-cp.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  316  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,316,0,1702948900,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,1,0,1702948870,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,1,0,1702948870,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
--'  1  0  ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
-|4,39,1,0,1702948870,"~/alx-low_level_programming/0x15-file_io/100-elf_header.c"
+-'  1  0  ~/simple_shell/exits.c
+|4,39,1,0,1704923964,"~/simple_shell/exits.c"
+-'  2  0  ~/simple_shell/getenv.c
+|4,39,2,0,1704923874,"~/simple_shell/getenv.c"
+-'  2  0  ~/simple_shell/getenv.c
+|4,39,2,0,1704923874,"~/simple_shell/getenv.c"
+-'  1  0  ~/simple_shell/getenv.c
+|4,39,1,0,1704923771,"~/simple_shell/getenv.c"
+-'  1  0  ~/simple_shell/getenv.c
+|4,39,1,0,1704923771,"~/simple_shell/getenv.c"
+-'  90  0  ~/simple_shell/getinfo.c
+|4,39,90,0,1704923737,"~/simple_shell/getinfo.c"
+-'  90  0  ~/simple_shell/getinfo.c
+|4,39,90,0,1704923737,"~/simple_shell/getinfo.c"
+-'  90  0  ~/simple_shell/getinfo.c
+|4,39,90,0,1704923737,"~/simple_shell/getinfo.c"
+-'  90  0  ~/simple_shell/getinfo.c
+|4,39,90,0,1704923737,"~/simple_shell/getinfo.c"
+-'  1  0  ~/simple_shell/getinfo.c
+|4,39,1,0,1704923683,"~/simple_shell/getinfo.c"
+-'  1  0  ~/simple_shell/getinfo.c
+|4,39,1,0,1704923683,"~/simple_shell/getinfo.c"
+-'  1  0  ~/simple_shell/getinfo.c
+|4,39,1,0,1704923683,"~/simple_shell/getinfo.c"
+-'  1  0  ~/simple_shell/getinfo.c
+|4,39,1,0,1704923683,"~/simple_shell/getinfo.c"
+-'  170  0  ~/simple_shell/getLine.c
+|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
+-'  170  0  ~/simple_shell/getLine.c
+|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
+-'  170  0  ~/simple_shell/getLine.c
+|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
+-'  170  0  ~/simple_shell/getLine.c
+|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
+-'  170  0  ~/simple_shell/getLine.c
+|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
+-'  170  0  ~/simple_shell/getLine.c
+|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
+-'  170  0  ~/simple_shell/getLine.c
+|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
+-'  170  0  ~/simple_shell/getLine.c
+|4,39,170,0,1704923651,"~/simple_shell/getLine.c"
+-'  1  0  ~/simple_shell/getLine.c
+|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
+-'  1  0  ~/simple_shell/getLine.c
+|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
+-'  1  0  ~/simple_shell/getLine.c
+|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
+-'  1  0  ~/simple_shell/getLine.c
+|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
+-'  1  0  ~/simple_shell/getLine.c
+|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
+-'  1  0  ~/simple_shell/getLine.c
+|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
+-'  1  0  ~/simple_shell/getLine.c
+|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
+-'  1  0  ~/simple_shell/getLine.c
+|4,39,1,0,1704923633,"~/simple_shell/getLine.c"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  170  0  ~/simple_shell/vi
+|4,39,170,0,1704923538,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  1  0  ~/simple_shell/vi
+|4,39,1,0,1704923496,"~/simple_shell/vi"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  176  0  ~/simple_shell/history.c
+|4,39,176,0,1704923372,"~/simple_shell/history.c"
+-'  1  18  ~/simple_shell/history.c
+|4,39,1,18,1704923287,"~/simple_shell/history.c"
+-'  1  18  ~/simple_shell/history.c
+|4,39,1,18,1704923287,"~/simple_shell/history.c"
+-'  1  18  ~/simple_shell/history.c
+|4,39,1,18,1704923287,"~/simple_shell/history.c"
+-'  1  18  ~/simple_shell/history.c
+|4,39,1,18,1704923287,"~/simple_shell/history.c"
+-'  1  18  ~/simple_shell/history.c
+|4,39,1,18,1704923287,"~/simple_shell/history.c"
+-'  1  18  ~/simple_shell/history.c
+|4,39,1,18,1704923287,"~/simple_shell/history.c"
+-'  1  18  ~/simple_shell/history.c
+|4,39,1,18,1704923287,"~/simple_shell/history.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/simple_shell/exits.c
+	*	1704923905	0
+	"	1	0
+
+> ~/simple_shell/getenv.c
+	*	1704923868	0
+	"	2	0
+	^	2	0
+	.	1	18
+	+	84	1
+	+	3	0
+	+	1	18
+
+> ~/simple_shell/getinfo.c
+	*	1704923734	0
+	"	90	0
+	^	90	0
+	.	89	1
+	+	89	1
+
+> ~/simple_shell/getLine.c
+	*	1704923647	0
+	"	170	0
+	^	170	0
+	.	169	1
+	+	169	1
+
+> ~/simple_shell/vi
+	*	1704923534	0
+	"	170	0
+	^	170	0
+	.	169	1
+	+	169	1
+
+> ~/simple_shell/history.c
+	*	1704923361	0
+	"	176	0
+	^	176	0
+	.	175	1
+	+	1	18
+	+	175	1
+
+> ~/simple_shell/lists1.c
+	*	1704923152	0
+	"	131	0
+	^	131	0
+	.	130	1
+	+	130	1
+
+> ~/simple_shell/lists.c
+	*	1704922949	0
+	"	177	0
+	^	177	0
+	.	176	1
+	+	3	2300
+	+	1	0
+	+	3	810
+	+	3	623
+	+	3	368
+	+	3	287
+	+	3	162
+	+	3	138
+	+	3	37
+	+	3	229
+	+	3	97
+	+	4	0
+	+	2	0
+	+	176	1
+
+> ~/simple_shell/main.c
+	*	1704922656	0
+	"	56	0
+	^	56	0
+	.	55	1
+	+	1	18
+	+	55	1
+
+> ~/simple_shell/memory.c
+	*	1704922547	0
+	"	64	0
+	^	64	0
+	.	63	1
+	+	63	1
+
+> ~/simple_shell/parser.c
+	*	1704922445	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	67	1
+	+	1	17
+
+> ~/simple_shell/realloc.c
+	*	1704922341	0
+	"	45	0
+	^	45	0
+	.	44	1
+	+	44	1
+
+> ~/simple_shell/shell_loop.c
+	*	1704922178	0
+	"	88	0
+	^	88	1
+	.	100	0
+	+	1	18
+	+	92	37
+	+	41	37
+	+	100	0
+
+> ~/simple_shell/vars.c
+	*	1704921902	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	119	1
+	+	5	0
+	+	1	17
+
+> ~/simple_shell/tokenizer.c
+	*	1704921769	0
+	"	83	0
+	^	83	0
+	.	82	1
+	+	1	18
+	+	82	1
+
+> ~/simple_shell/string1.c
+	*	1704921633	0
+	"	63	0
+	^	63	0
+	.	62	1
+	+	62	1
+
+> ~/simple_shell/string.c
+	*	1704921477	0
+	"	4	0
+	^	4	0
+	.	3	0
+	+	1	18
+	+	49	1
+	+	3	0
+
+> ~/simple_shell/shell.h
+	*	1704920470	0
+	"	231	0
+	^	231	0
+	.	235	6
+	+	1	17
+	+	235	6
 
 > ~/simple_shell/a
 	*	1703247655	0

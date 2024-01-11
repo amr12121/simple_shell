@@ -2,10 +2,10 @@
 
 void clear_info(info_t *program_info)
 {
-    program_infoargument = NULL;
-    program_infoarguments = NULL;
-    program_infopath = NULL;
-    program_infoargument_count = 0;
+    program_info->argument = NULL;
+    program_info->arguments = NULL;
+    program_info->path = NULL;
+    program_info->argument_count = 0;
 }
 
 void set_info(info_t *program_info, char **arguments_vector)
@@ -13,21 +13,21 @@ void set_info(info_t *program_info, char **arguments_vector)
     int i = 0;
 
     program_info->file_name = arguments_vector[0];
-    if (program_infoargument)
+    if (program_info->argument)
     {
-        program_infoarguments = strtow(program_info->argument, " \t");
-        if (!program_infoarguments)
+        program_info->arguments = strtow(program_info->argument, " \t");
+        if (!program_info->arguments)
         {
-            program_infoarguments = malloc(sizeof(char *) * 2);
-            if (program_infoarguments)
+            program_info->arguments = malloc(sizeof(char *) * 2);
+            if (program_info->arguments)
             {
-                program_infoarguments[0] = _strdup(program_info->argument);
-                program_infoarguments[1] = NULL;
+                program_info->arguments[0] = _strdup(program_info->argument);
+                program_info->arguments[1] = NULL;
             }
         }
-        for (i = 0; program_infoarguments && program_info->arguments[i]; i++)
+        for (i = 0; program_info->arguments && program_info->arguments[i]; i++)
             ;
-        program_infoargument_count = i;
+        program_info->argument_count = i;
 
         replace_alias(program_info);
         replace_variables(program_info);
@@ -36,24 +36,24 @@ void set_info(info_t *program_info, char **arguments_vector)
 
 void free_info(info_t *program_info, int free_all)
 {
-    ffree(program_infoarguments);
-    program_infoarguments = NULL;
-    program_infopath = NULL;
+    ffree(program_info->arguments);
+    program_info->arguments = NULL;
+    program_info->path = NULL;
     if (free_all)
     {
-        if (!program_infocommand_buffer)
-            free(program_infoargument);
-        if (program_infoenvironment)
-            free_list(&(program_infoenvironment));
-        if (program_infohistory)
-            free_list(&(program_infohistory));
-        if (program_infoalias)
-            free_list(&(program_infoalias));
-        ffree(program_infoenvironment);
-        program_infoenvironment = NULL;
-        bfree((void **)program_infocommand_buffer);
-        if (program_inforead_file_descriptor > 2)
-            close(program_inforead_file_descriptor);
+        if (!program_info->command_buffer)
+            free(program_info->argument);
+        if (program_info->environment)
+            free_list(&(program_info->environment));
+        if (program_info->history)
+            free_list(&(program_info->history));
+        if (program_info->alias)
+            free_list(&(program_info->alias));
+        ffree(program_info->environment);
+        program_info->environment = NULL;
+        bfree((void **)program_info->command_buffer);
+        if (program_info->read_file_descriptor > 2)
+            close(program_info->read_file_descriptor);
         _putchar(BUFFER_FLUSH);
     }
 }

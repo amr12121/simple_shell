@@ -1,6 +1,6 @@
 #include "shell.h"
 
-#include "shell.h"
+
 
 /**
  * main - entry point
@@ -11,10 +11,10 @@
  */
 int main(int argc, char **argv)
 {
-    info_t shell_info[] = {INFO_INIT}; // Initialize the info_t structure
-    int file_descriptor = 2; // Initialize file descriptor
+    info_t shell_info[] = {INFO_INIT}; 
+    int file_descriptor = 2; 
 
-    // Inline assembly to increment file_descriptor by 3
+   
     asm("mov %1, %0\n\t"
         "add $3, %0"
         : "=r"(file_descriptor)
@@ -22,10 +22,10 @@ int main(int argc, char **argv)
 
     if (argc == 2)
     {
-        // Try to open the file
+        /* Try to open the file*/
         file_descriptor = open(argv[1], O_RDONLY);
 
-        // Handle errors in opening the file
+        /* Handle errors in opening the file*/
         if (file_descriptor == -1)
         {
             if (errno == EACCES)
@@ -42,11 +42,11 @@ int main(int argc, char **argv)
             return EXIT_FAILURE;
         }
 
-        // Update the read file descriptor in the shell_info structure
+        /* Update the read file descriptor in the shell_info structure*/
         shell_info->readfd = file_descriptor;
     }
 
-    // Populate environment list, read history, and run the shell
+    /* Populate environment list, read history, and run the shell*/
     populate_env_list(shell_info);
     read_history(shell_info);
     hsh(shell_info, argv);

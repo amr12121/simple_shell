@@ -1,31 +1,54 @@
-#include "shell.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <unistd.h>
 
-/**
- * get_history_file - gets the history file
- * @info: parameter struct
- *
- * Return: allocated string containing history file
- */
-char *get_history_file(info_t *info)
+char *get_history_file(ino_t *info)
 {
-	char *dir = _getenv(info, "HOME=");
-	if (!dir)
-		return NULL;
+    char *dir = _getenv(info, "HOME=");
+    if (!dir || !(*dir))  /* Check if dir is empty or NULL*/
+    {
+        free(dir);
+        return NULL;
+    }
 
-	char *filename = malloc(_strlen(dir) + _strlen(HIST_FILE) + 2);
-	if (!filename)
-	{
-		free(dir);
-		return NULL;
-	}
+    size_t filename_len = _strlen(dir) + _strlen(HIST_FILE) + 2;
+    char *filename = malloc(filename_len);
+    if (!filename)
+    {
+        free(dir);
+        return NULL;
+    }
 
-	_strcpy(filename, dir);
-	_strcat(filename, "/");
-	_strcat(filename, HIST_FILE);
-	free(dir);
+    /* Use snprintf for string concatenation*/
+    snprintf(filename, filename_len, "%s/%s", dir, HIST_FILE);
+    free(dir);
 
-	return filename;
+    return filename;
 }
+
+void write_history(ino_t *info)
+{
+    char *filename = get_history_file(info);
+    if (!filename)
+        return;
+
+    int fd = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0644);
+    free(filename);
+
+    if (fd == -1)
+    {
+        perror("Error opening history file");
+        return;
+    }
+
+    list_t *node = info->history;
+    for (; node; node = node->next)
+        dprintf(fd, "%s\n", node->str);
+
+    close(fd);
+}
+
 
 /**
  * write_history - creates a file, or appends to an existing file
@@ -33,7 +56,7 @@ char *get_history_file(info_t *info)
  *
  * Return: 1 on success, else -1
  */
-int write_history(info_t *info)
+int write_history(ino_t *info)
 {
 	char *filename = get_history_file(info);
 	if (!filename)
@@ -64,7 +87,7 @@ int write_history(info_t *info)
  *
  * Return: histcount on success, 0 otherwise
  */
-int read_history(info_t *info)
+int read_history(ino_t *info)
 {
 	char *filename = get_history_file(info);
 	if (!filename)
@@ -139,7 +162,7 @@ int read_history(info_t *info)
  *
  * Return: Always 0
  */
-int build_history_list(info_t *info, char *buf, int linecount)
+int build_history_list(ino_t *info, char *buf, int linecount)
 {
 	list_t *node = NULL;
 
@@ -160,7 +183,7 @@ int build_history_list(info_t *info, char *buf, int linecount)
  *
  * Return: the new histcount
  */
-int renumber_history(info_t *info)
+int renumber_history(ino_t *info)
 {
 	list_t *node = info->history;
 	int i = 0;

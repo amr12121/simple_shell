@@ -66,6 +66,8 @@ void find_cmd(info_t *information)
 
     information->path = information->argv[0];
     if (information->linecount_flag == 1)
+    
+
     {
         information->line_count++;
         information->linecount_flag = 0;
@@ -89,12 +91,8 @@ void find_cmd(info_t *information)
         else if (*(information->arg) != '\n')
         {
             information->status = 127;
-            print_error(information, 
-
-
-
-
-
-			    	}
+             
 	}
 }
+}
+

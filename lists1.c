@@ -1,7 +1,7 @@
 #include "shell.h"
 
 
-#include "shell.h"
+
 
 /**
  * list_len - determines length of linked list
@@ -29,36 +29,39 @@ size_t list_len(const list_t *head)
  */
 char **list_to_strings(list_t *head)
 {
-	list_t *node = head;
-	size_t size = list_len(head), i;
-	char **strs;
-	char *str;
+    list_t *node = head;
+    size_t size = list_len(head), i;
+    char **strs;
+    char *str;
 
-	if (!head || !size)
-		return NULL;
+    if (!head || !size)
+        return NULL;
 
-	strs = malloc(sizeof(char *) * (size + 1));
-	if (!strs)
-		return NULL;
+    strs = malloc(sizeof(char *) * (size + 1));
+    if (!strs)
+        return NULL;
 
-	for (i = 0; node; node = node->next, i++)
-	{
-		str = malloc(_strlen(node->str) + 1);
-		if (!str)
-		{
-			for (size_t j = 0; j < i; j++)
-				free(strs[j]);
-			free(strs);
-			return NULL;
-		}
+    size_t j;  
 
-		str = _strcpy(str, node->str);
-		strs[i] = str;
-	}
+    for (i = 0; node; node = node->next, i++)
+    {
+        str = malloc(_strlen(node->str) + 1);
+        if (!str)
+        {
+            for (j = 0; j < i; j++) 
+                free(strs[j]);
+            free(strs);
+            return NULL;
+        }
 
-	strs[i] = NULL;
-	return strs;
+        _strncpy(str, node->str, _strlen(node->str) + 1);
+        strs[i] = str;
+    }
+
+    strs[i] = NULL;
+    return strs;
 }
+
 
 /**
  * print_list - prints all elements of a list_t linked list
